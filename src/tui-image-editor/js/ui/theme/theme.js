@@ -3,8 +3,7 @@ import forEach from 'tui-code-snippet/collection/forEach';
 import style from '../../../js/ui/template/style';
 import standardTheme from '../../../js/ui/theme/standard';
 import { styleLoad } from '../../../js/util';
-
-import icon from '../../../svg/default.svg';
+import icon from './icon';
 
 /**
  * Theme manager
@@ -177,7 +176,6 @@ class Theme {
       const parser = new DOMParser();
       const encodedURI = icon.replace(/data:image\/svg\+xml;base64,/, '');
       const dom = parser.parseFromString(atob(encodedURI), 'text/xml');
-
       document.body.appendChild(dom.documentElement);
     }
   }

@@ -1,0 +1,16 @@
+.tui-image-editor-container .tui-image-editor-submenu{
+  height: auto;
+}
+.tui-image-editor-container.bottom .tui-image-editor-submenu > div{
+  padding: 6px 0;
+}
+.tui-image-editor-controls{
+  background-color: #999999 !important;
+}
+.tui-image-editor-container .tui-image-editor{
+  margin-bottom: 53px;
+}
+.tui-image-editor-container .tui-image-editor-submenu .tui-image-editor-button > label, .tui-image-editor-container .tui-image-editor-range-wrap.tui-image-editor-newline.short label, .tui-image-editor-container .tui-image-editor-range-wrap.tui-image-editor-newline.short label > span{
+  color: #fff !important;
+  font-weight: normal !important;
+}

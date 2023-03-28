@@ -16,13 +16,13 @@ export const COMMAND_HELP_MENUS = ['history', 'undo', 'redo', 'reset'];
  * Help features for delete
  * @type {Array.<string>}
  */
-export const DELETE_HELP_MENUS = ['delete', 'deleteAll'];
+// export const DELETE_HELP_MENUS = ['delete', 'deleteAll'];
 
 /**
  * Editor help features
  * @type {Array.<string>}
  */
-export const HELP_MENUS = [...ZOOM_HELP_MENUS, ...COMMAND_HELP_MENUS, ...DELETE_HELP_MENUS];
+export const HELP_MENUS = [...ZOOM_HELP_MENUS, ...COMMAND_HELP_MENUS];
 
 /**
  * Fill type for shape
@@ -328,7 +328,7 @@ export const defaultRotateRangeValues = {
 export const defaultDrawRangeValues = {
   min: 5,
   max: 30,
-  value: 12,
+  value: 8,
 };
 
 export const defaultShapeStrokeValues = {

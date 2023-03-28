@@ -5,7 +5,6 @@ import { getSelector, assignmentForDestroy, cls, getHistoryTitle, isSilentComman
 import {
   ZOOM_HELP_MENUS,
   COMMAND_HELP_MENUS,
-  DELETE_HELP_MENUS,
   eventNames,
   HELP_MENUS,
 } from '../js/consts';
@@ -406,7 +405,8 @@ class Ui {
    * @private
    */
   _makeHelpMenuWithPartition() {
-    return [...ZOOM_HELP_MENUS, '', ...COMMAND_HELP_MENUS, '', ...DELETE_HELP_MENUS];
+    // return [...ZOOM_HELP_MENUS, '', ...COMMAND_HELP_MENUS, '', ...DELETE_HELP_MENUS];
+    return [...ZOOM_HELP_MENUS, '', ...COMMAND_HELP_MENUS];
   }
 
   /**
